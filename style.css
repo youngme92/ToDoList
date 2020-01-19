@@ -1,6 +1,7 @@
 body {
     margin: 20px auto;
     text-align: center;
+    background-color: #DC9497;
 }
 
 .showing {
@@ -9,4 +10,47 @@ body {
 
 .hide {
     display: none;
+}
+
+ul {
+    width: 200px;
+    margin: auto;
+    list-style-type: none;
+    color: yellow;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+li {
+    margin-top: 20px;
+}
+
+button {
+    position: absolute;
+    right: 450px;
+}
+
+/* bg.js image */
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
